@@ -6,8 +6,8 @@ public class Main {
         System.out.println("Apple");
     }
 //Задача №2
-    public class Main2 {
-        public static void main2(String[] args) {
+    public class Main {
+        public static void main(String[] args) {
             checkSumSign();
         }
 
@@ -47,8 +47,8 @@ public class Main {
     }
 
     public static void compareNumbers() {
-        int a = 10; // Можно изменить значение переменной a здесь
-        int b = 5; // Можно изменить значение переменной b здесь
+        int a = 10; 
+        int b = 5; 
 
         if (a >= b) {
             System.out.println("a >= b");
